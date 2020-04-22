@@ -1,0 +1,38 @@
+
+body {  
+    display: flex;
+  }
+  aside {
+    background-color:rgb(33,78,122);;
+    display: flex;
+    align-items: center;
+    flex: 2;
+  }
+  
+  main {
+    flex: 4;
+  }
+  
+  a {
+    background-color:rgb(33, 78, 122);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    border:1px solid white;
+    border-radius:2px;
+    margin:3px;
+  
+  }
+  h3 {
+    margin-top:20px;
+    color:white;
+    text-align:center;
+  
+  }
+  
+  #asidep {
+    color:white;
+    text-align:center;
+  }
