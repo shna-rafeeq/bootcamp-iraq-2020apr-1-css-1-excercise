@@ -1,24 +1,34 @@
 
+ * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {  
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
-   
   }
+
   aside {
     background-color:rgb(33,78,122);;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     flex: 1;
-    width: 20%;
-    height: 210vh;
-    
+    width: 15%;
+    height: 100vw;
+    position: fixed;
+    left: 0;
+    top: 0;
   }
   
   main {
-    flex: 4;
-   
-    
+    flex: 4; 
+    position: absolute;
+    left: 15%;
+    padding: 30px;
   }
   
   .asidelink {
@@ -31,28 +41,123 @@ body {
     border-radius:2px;
     margin:5px 5px 5px 5px;
     font-size: 10px;
-  
   }
   
-  aside h3 , aside p{
-    color:white;
-    text-align:right;
-    
+  .asidediv{
+    width: 80%;
+    display: flex;
+    margin-top: 200px;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: right;
   }
 
+  .asidediv h3{
+    color: white;
+  }
+
+  .asidediv{
+    text-align: right;
+    color: white;
+  }
+
+  .span{
+    color: grey;
+    font-size: small;
+  }
+
+  .section{
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .blog{
+    margin-top: 15px;
+  }
+
+   .avatar{
+    border-radius: 50%;
+    float: right;
+    display: inline-block;
+    width: 30px;
+    height: 30px; 
+    margin-bottom: 15px;
+  }
+
+  .clear{
+    clear: both;
+  }
   
+  .slink{
+    text-decoration: none;
+    color:skyblue;
+  }
+
+  .pmargin{
+    margin-bottom: 10px;
+  }
+    
+  #css{
+    background-color: green;
+    color: white;
+    padding: 3px;
+    font-size: 13px;
+  }
+
+  #js1{
+    background-color: rgb(52, 52, 156);
+    color: white;
+    padding: 3px;
+    font-size: 13px;
+  }
+
+  #js2{
+    background-color: rgb(214, 67, 67);
+    color: white;
+    padding: 2px;
+    font-size: 13px;
+  }
+
+  .ldiv{
+   margin-top: 5px;
+   
+  }
+
+  #s3span{
+    background-color: grey;
+    color: white;
+    padding: 3px;
+    font-size: 13px;
+  }
+
+  .footer{
+    color: grey;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-bottom:2px;
+  }
+
+  #f2img1{
+    display: inline-block;
+    align-items: center;
+    width: auto;
+    height: 300px;
+    margin-top: 5px;
+  }
+
+  #f2img2{
+    display: inline-block;
+    align-items: center;
+    width: auto;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
 
  
-
-  
-  aside div{
-   display: inline-block;
-   width: 30%;
-   height: 100%;
-   margin-left: 40px;
-   
-  
-  }
+ 
 
  
   
