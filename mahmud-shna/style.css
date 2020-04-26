@@ -86,8 +86,14 @@ body {
 
   .clear{
     clear: both;
+    margin-top: 1px;
+    display: inline-block;
   }
   
+  #lpr {
+    display: inline;
+    margin-bottom: 1px;
+  }
   .slink{
     text-decoration: none;
     color:skyblue;
@@ -119,8 +125,7 @@ body {
   }
 
   .ldiv{
-   margin-top: 5px;
-   
+   margin-top: 15px;
   }
 
   #s3span{
